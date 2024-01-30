@@ -14,15 +14,15 @@ const DeleteUser = ({ isOpen, handleClose }) => {
     setDeleteDialogOpen(false);
     handleClose(); // Call the handleClose prop to close the dialog in the parent component
   };
-
+ var widthiner= window.innerWidth
   return (
     <Modal open={isDeleteDialogOpen} onClose={handleDeleteCancel}>
       <Box
         sx={{
           position: 'absolute',
-          width: 400,
+          width:  widthiner>=450? '420' : '80%',
           bgcolor: 'background.paper',
-          
+          borderRadius:'20px',
           boxShadow: 24,
           p: 2,
           top: '50%',

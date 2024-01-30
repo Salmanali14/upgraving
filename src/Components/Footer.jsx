@@ -28,7 +28,7 @@ export default function Footer() {
           <p>Analytics</p>
         </Link>
         <Link className={`foterlink ${isconPath2 ? 'active' : ''}`} to="/setting">
-          <img width="30" height="30" src="https://img.icons8.com/ios/96/settings--v1.png" alt="settings--v1"/>
+        <img width="30" height="30" src="https://img.icons8.com/external-dashed-line-kawalan-studio/96/external-setting-user-interface-dashed-line-kawalan-studio.png" alt="external-setting-user-interface-dashed-line-kawalan-studio"/>
           <p>Settings</p>
         </Link>
       </div>
