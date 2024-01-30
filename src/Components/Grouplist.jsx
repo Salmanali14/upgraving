@@ -17,7 +17,6 @@ const connectionsData = [
     { Groupname:'Q', date: '31, December, 2023', name: 'QA Team', role: 'Project Manager', imageSrc: 'images/Ellipse 97 (2).png' },
     { Groupname:'W', date: '31, December, 2023', name: 'Workers', role: 'Project Manager', imageSrc: 'images/Ellipse 97 (1).png' },
      ];
-     
 export default function Grouplist() {
   const [isLinkMediaModalOpenw, setLinkMediaModalOpenw] = useState(false);
   const [isDeleteModalOpen, setDeleteModalOpen] = useState(false); 
