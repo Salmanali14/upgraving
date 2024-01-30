@@ -1,0 +1,23 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+.app{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+ 
+  font-family: 'Inter', sans-serif;
+}
+.screen{
+  display: flex;
+  
+  justify-content: center;
+  max-width: 430px;
+  min-height: 100vh;
+  width: 100%;
+  height: max-content;
+ position: relative;
+}
