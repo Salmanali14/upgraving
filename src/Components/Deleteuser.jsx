@@ -22,7 +22,7 @@ const DeleteUser = ({ isOpen, handleClose }) => {
           position: 'absolute',
           width: 400,
           bgcolor: 'background.paper',
-          border: '2px solid #000',
+          
           boxShadow: 24,
           p: 2,
           top: '50%',
