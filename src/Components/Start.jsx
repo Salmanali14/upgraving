@@ -6,15 +6,24 @@ import './Login.css';
 export default function Start() {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    // Set a timeout to navigate to /start1 after 2 seconds
-    const timeoutId = setTimeout(() => {
-      navigate('/start1');
-    }, 2000);
 
-    // Clear the timeout when the component unmounts or when the navigation occurs
+ 
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      const currentUser = localStorage.getItem('useruid');
+      if (!currentUser) {
+     
+        navigate('/start1');
+      } else {
+   
+        navigate('/login2');
+      }
+    }, 2000);
     return () => clearTimeout(timeoutId);
-  }, [navigate]);
+  }, []); 
+
+
 
   return (
     <div className='start'>

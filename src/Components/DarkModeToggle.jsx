@@ -49,6 +49,27 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-export default function DarkModeToggle() {
-  return <MaterialUISwitch />;
+export default function DarkModeToggle({ darkmode, toggledarkmodStatus }) {
+  const updatedarkmodValue = (neValue) => {
+    console.log(neValue)
+    update(ref(db, 'user'), { darkmode: neValue })
+      .then(() => {
+        console.log('Leadmod value updated successfully in Firebase:', neValue);
+      })
+      .catch((error) => {
+        console.error('Error updating leadmod value in Firebase:', error);
+      });
+  };
+  return(
+    <div>
+    <MaterialUISwitch
+  onChange={(event) => {
+    const neValue = event.target.checked;
+    toggledarkmodStatus(); 
+    updatedarkmodValue(neValue); 
+  }}
+  checked={darkmode}
+  />
+  </div>
+  );
 }

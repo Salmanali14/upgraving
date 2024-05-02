@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 export default function Start3() {
+  const history = useNavigate();
+  const handlemove =()=>{
+   history("/start4");
+  }
   return (
     <>
       <div className="start1">
@@ -36,7 +41,7 @@ export default function Start3() {
         <img id="start3-1img" src="images/cuate.png"></img>
         <img id="start3-2img" src="images/start3.png"></img>
         <div className="nextmain">
-          <div id="next_btn_div">
+          <div id="next_btn_div" onClick={handlemove}>
           <Link to="/start4"> <img
               id="nextbuttonicon"
               src="https://img.icons8.com/ios-glyphs/96/FFFFFF/forward.png"
