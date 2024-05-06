@@ -44,7 +44,7 @@ export default function Footer() {
         </Link>
         <Link className={`foterlink ${isconPath1 ? 'active' : ''}`} to="/analytics">
         <img id='imgft' src='/country/Stats.png'/>
-          <p style={selectlng === 'japanese' ? { width: "20px",textAlign:"center" }: selectlng === 'thai' ? { width: "50px",textAlign:"center" } : null}>{t("Analytics")}</p>
+          <p style={selectlng === 'japanese' ? { width: "20px",textAlign:"center" }: selectlng === 'thai' ? { width: "60px",textAlign:"center" } : null}>{t("Analytics")}</p>
         </Link>
         <Link className={`foterlink ${isconPath2 ? 'active' : ''}`} to="/setting">
         <img id='imgft' src='/country/Settings.png'/>

@@ -226,9 +226,9 @@
 "11": "Add your WhatsApp number including your country code (e.g., +33 743210012).",
 "12": "Add your Gmail address like this (e.g., avicenna@gmail.com).",
 "13": "Add your email address (e.g., avicenna@gmail.com).",
-"14": "Add your Zoom ID (e.g., zoomiddgsdds21341).",
+"14": "Add your Zoom url.",
 "15": "Add your phone number including your country code (e.g., +33 743210012).",
-"16": "Add your Skype ID (e.g., skypeiddgsdds21341).",
+"16": "Add your Skype username (e.g., skypeiddgsdds21341).",
 "17": "Add your app link (e.g., app/fgsf4com).",
 "18": "Add your app link (e.g., app/fgsf4com).",
 "19": "Add your PayPal url.",
@@ -249,8 +249,17 @@
 "List":"List",
 "This member is already added.":"This member is already added.",
 "Added":"Added",
-"Group added successfully!":"Group added successfully!",
 "No results found":"No results found",
 
-"Member added successfully":"Member added successfully"
+
+
+"Member added successfully":"Member added successfully",
+"Group added successfully!":"Group added successfully!",
+"Are you sure you want remove this member?":"Are you sure you want remove this member?",
+"Potrait":"Potrait",
+"Linear":"Linear",
+"Default":"Default",
+"Enter email":"Enter email",
+"Enter phone no":"Enter phone no",
+"Enter url":"Enter url"
 }

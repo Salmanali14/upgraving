@@ -226,9 +226,9 @@
   "11": "国コードを含むWhatsApp番号を追加します（例：+33 743210012）。",
   "12": "このようにGmailを追加します（例：avicenna@gmail.com）。",
   "13": "メールアドレスを追加します（例：avicenna@gmail.com）。",
-  "14": "Zoom IDを追加します（例：zoomiddgsdds21341）。",
+  "14": "Zoom ユーザー名 を追加します（例：zoomiddgsdds21341）。",
   "15": "国コードを含む電話番号を追加します（例：+33 743210012）。",
-  "16": "Skype IDを追加します（例：skypeiddgsdds21341）。",
+  "16": "Skype ユーザー名を追加します（例：skypeiddgsdds21341）。",
   "17": "アプリリンクを追加します（例：app/fgsf4com）。",
   "18": "アプリリンクを追加します（例：app/fgsf4com）。",
   "19":"PayPalのURLを追加してください。",
@@ -246,6 +246,15 @@
 
 "This member is already added.": "このメンバーはすでに追加されています。",
 "Added": "追加されました",
-"No results found": "結果が見つかりませんでした"
+"No results found": "結果が見つかりませんでした",
+"Member added successfully": "メンバーが正常に追加されました",
+"Group added successfully!": "グループが正常に追加されました！",
+"Are you sure you want remove this member?": "このメンバーを削除してもよろしいですか？",
+"Potrait": "肖像",
+"Linear": "リニア",
+"Default": "デフォルト",
+"Enter email": "メールアドレスを入力してください",
+"Enter phone no": "電話番号を入力してください",
+"Enter url": "URLを入力してください"
 
 }

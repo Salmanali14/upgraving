@@ -1606,7 +1606,7 @@ line-height: normal;
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  height: 120px;
+  height: 70px;
   width: 120px;
   top: 68%;
   margin-top: -59px;
@@ -3031,7 +3031,7 @@ align-items: flex-start;
 }
 .total-pops p{
   color: #545454;
-
+padding-right: 8px;
 
   font-family: Inter;
   font-size: 14px;

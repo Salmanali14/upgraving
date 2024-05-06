@@ -226,9 +226,9 @@
         "11": "Fügen Sie Ihre WhatsApp-Nummer inklusive Ländercode hinzu (z.B. +33 743210012).",
         "12": "Fügen Sie Ihre Gmail-Adresse wie folgt hinzu (z.B. avicenna@gmail.com).",
         "13": "Fügen Sie Ihre E-Mail-Adresse hinzu (z.B. avicenna@gmail.com).",
-        "14": "Fügen Sie Ihre Zoom-ID hinzu (z.B. zoomiddgsdds21341).",
+        "14": "Fügen Sie Ihre Zoom-Benutzername hinzu (z.B. zoomiddgsdds21341).",
         "15": "Fügen Sie Ihre Telefonnummer inklusive Ländercode hinzu (z.B. +33 743210012).",
-        "16": "Fügen Sie Ihre Skype-ID hinzu (z.B. skypeiddgsdds21341).",
+        "16": "Fügen Sie Ihre Skype-Benutzername hinzu (z.B. skypeiddgsdds21341).",
         "17": "Fügen Sie den Link Ihrer App hinzu (z.B. app/fgsf4com).",
         "18": "Fügen Sie den Link Ihrer App hinzu (z.B. app/fgsf4com).",
         "19": "Fügen Sie Ihre PayPal-URL hinzu.",
@@ -246,5 +246,14 @@
   "List": "Liste",
   "This member is already added.": "Dieses Mitglied wurde bereits hinzugefügt.",
   "Added": "Hinzugefügt",
-  "No results found": "Keine Ergebnisse gefunden"
+  "No results found": "Keine Ergebnisse gefunden",
+  "Member added successfully": "Mitglied erfolgreich hinzugefügt",
+  "Group added successfully!": "Gruppe erfolgreich hinzugefügt!",
+  "Are you sure you want remove this member?": "Sind Sie sicher, dass Sie dieses Mitglied entfernen möchten?",
+  "Potrait": "Porträt",
+  "Linear": "Linear",
+  "Default": "Standard",
+  "Enter email": "E-Mail eingeben",
+  "Enter phone no": "Telefonnummer eingeben",
+  "Enter url": "URL eingeben"
     }

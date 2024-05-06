@@ -666,7 +666,7 @@ const urlRegex = /^(ftp|http|https):\/\/[^ "]+$/;
     { imgSrc: 'https://img.icons8.com/ios-filled/96/FFFFFF/whatsapp--v1.png',linkId:11, altname: 'whatsapp--v1', name: 'WhatsApp',instruction:'Add your phone number including your country code (e.g. +33 743210012)',placeholder:"Enter phone no" },
     { imgSrc: 'https://img.icons8.com/ios-filled/98/FFFFFF/gmail-new.png',linkId:12, altname: 'gmail-new', name: 'Gmail',instruction:'Add your email (e.g. salmanwork144@gmail.com (e.g. +33 743210012)',placeholder:"Enter email" },
     { imgSrc: 'https://img.icons8.com/material-rounded/96/FFFFFF/new-post.png',linkId:13, altname: 'new-post', name: 'Email',instruction:'Add your email (e.g. salmanwork144@gmail.com (e.g. +33 743210012)',placeholder:"Enter email" },
-    { imgSrc: 'https://img.icons8.com/ios-filled/96/ffffff/zoom.png',linkId:14, altname: 'zoom-', name: 'Zoom',instruction:'Add your zoom id ',placeholder:"Enter zoom id" },
+    { imgSrc: 'https://img.icons8.com/ios-filled/96/ffffff/zoom.png',linkId:14, altname: 'zoom-', name: 'Zoom',instruction:'Add your zoom url ',placeholder:"Enter url" },
     { imgSrc: 'https://img.icons8.com/windows/96/FFFFFF/telegram-app.png',linkId:15, altname: 'telegram-app', name: 'Telegram',instruction:'Add your phone number including your country code (e.g. +33 743210012)',placeholder:"Enter phone no" },
    
     { imgSrc: 'https://img.icons8.com/ios-filled/96/ffffff/skype.png',linkId:16, altname: 'skype', name: 'Skype',instruction:'Add your phone number including your country code (e.g. +33 743210012)',placeholder:"Enter username" },
@@ -1336,7 +1336,7 @@ const [cover1, setcover] = useState('');
                     </div>
                     <p>{t(clickedLink.name)}</p>
                     <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', width: '100%' }}>
-                      <input type='name' name='input url' placeholder={clickedLink.placeholder}  style={{ outline: 'none' }} onChange={handleChange} value={value}/>
+                      <input type='name' name='input url' placeholder={t(clickedLink.placeholder)}  style={{ outline: 'none' }} onChange={handleChange} value={value}/>
                       {'\u00A0'}
                       <FaCircleInfo style={{ fontSize: '30px' }} onClick={handleToggleLinkInfo} /> {/* Toggle info visibility */}
                     </span>
@@ -1377,7 +1377,7 @@ const [cover1, setcover] = useState('');
         <div className='Back-theme'>
         <div className='single-theme'>
           <img width={50} src={theme1} alt="Theme A" />
-          <p>Default</p>
+          <p>{t("Default")}</p>
           <Radio
             checked={theme === 'Default'}
             onChange={handleChangetheme}
@@ -1388,7 +1388,7 @@ const [cover1, setcover] = useState('');
         </div>
         <div className='single-theme'>
           <img width={50} src={theme2} alt="Theme B" />
-          <p>Linear</p>
+          <p>{t("Linear")}</p>
           <Radio
             checked={theme === 'Linear'}
             onChange={handleChangetheme}
@@ -1399,7 +1399,7 @@ const [cover1, setcover] = useState('');
         </div>
         <div className='single-theme'>
         <img width={50} src={theme1} alt="Theme B" />
-        <p>Potrait</p>
+        <p>{t("Potrait")}</p>
         <Radio
           checked={theme === 'Potrait'}
           onChange={handleChangetheme}

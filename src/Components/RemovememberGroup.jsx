@@ -1,15 +1,18 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Modal, Button, Typography, Box } from '@mui/material';
 import { ref, remove } from 'firebase/database'; 
 import { db } from './firebaseConfig';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useParams } from 'react-router-dom';
+import { LanguageContext } from './LanguageContext';
+import { useTranslation } from 'react-i18next';
 const RemovememberGroup = ({ isOpen, handleClose, linkData, currentUser,userid,updateLinks }) => {
  
   const [isDeleteDialogOpen, setDeleteDialogOpen] = useState(isOpen);
   const {id} =useParams();
-
+  const { t } = useTranslation();
+    const { language } = useContext(LanguageContext); 
   const handleDeleteConfirm = () => {
     if (userid) {
         remove(ref(db, `groups/${id}/members/${userid}`))
@@ -53,15 +56,15 @@ const RemovememberGroup = ({ isOpen, handleClose, linkData, currentUser,userid,u
       <img src="/images/Remove user.png" style={{height:'60px',width:'60px'}} /></p>
         
         <Typography variant="body2" sx={{ fontFamily: 'Inter',margin:'10px',textAlign:'center',width:'270px' }}>
-        Are you sure you want remove this member?
+        {t("Are you sure you want remove this member?")}
         </Typography>
         <Box mt={2} display="flex" justifyContent="center">
           <Button onClick={handleDeleteCancel}  sx={{ fontFamily: 'Inter',color:'white',background:'linear-gradient(180deg, #00EFFF 0%, #00AEFF 100%)',borderRadius:'20px',width:'120px',height:'42px' }}>
-            Cancel
+            {t("Cancel")}
           </Button>{'\u00A0'}
           <Button onClick={handleDeleteConfirm}  sx={{ fontFamily: 'Inter',color:'White',background:'rgba(54, 54, 54, 1)',borderRadius:'20px',width:'120px',height:'42px', '&:hover': {
             background: 'rgba(54, 54, 54, 1)'}, }}>
-            Confirm
+            {t("Confirm")}
           </Button>
         </Box>
       </Box>

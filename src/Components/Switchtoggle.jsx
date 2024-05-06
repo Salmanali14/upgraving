@@ -86,10 +86,7 @@ console.log(profilelockmode)
         checked={profilelockmode}
       />
     </div>
-    <ToastContainer
-    position="top-center"
-    reverseOrder={false}
-  />
+  
     </>
   );
 }

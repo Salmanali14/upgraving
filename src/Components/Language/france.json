@@ -222,9 +222,9 @@
     "11": "Ajoutez votre numéro de WhatsApp en incluant le code pays (par exemple, +33 743210012).",
     "12": "Ajoutez votre adresse Gmail comme ceci (par exemple, avicenna@gmail.com).",
     "13": "Ajoutez votre adresse e-mail (par exemple, avicenna@gmail.com).",
-    "14": "Ajoutez votre ID Zoom (par exemple, zoomiddgsdds21341).",
+    "14": "Ajoutez votre Nom d'utilisateur Zoom (par exemple, zoomiddgsdds21341).",
     "15": "Ajoutez votre numéro de téléphone en incluant le code pays (par exemple, +33 743210012).",
-    "16": "Ajoutez votre ID Skype (par exemple, skypeiddgsdds21341).",
+    "16": "Ajoutez votre Nom d'utilisateur Skype (par exemple, skypeiddgsdds21341).",
     "17": "Ajoutez le lien de votre application (par exemple, app/fgsf4com).",
     "18": "Ajoutez le lien de votre application (par exemple, app/fgsf4com).",
     "19": "Ajoutez votre URL PayPal.",
@@ -242,5 +242,14 @@
   "List": "Liste",
   "This member is already added.": "Ce membre est déjà ajouté.",
   "Added": "Ajouté",
-  "No results found": "Aucun résultat trouvé"
+  "No results found": "Aucun résultat trouvé",
+  "Member added successfully": "Membre ajouté avec succès",
+  "Group added successfully!": "Groupe ajouté avec succès !",
+  "Are you sure you want remove this member?": "Êtes-vous sûr de vouloir supprimer ce membre ?",
+  "Potrait": "Portrait",
+  "Linear": "Linéaire",
+  "Default": "Défaut",
+  "Enter email": "Entrer l'e-mail",
+  "Enter phone no": "Entrer le numéro de téléphone",
+  "Enter url": "Entrer l'URL"
 }
